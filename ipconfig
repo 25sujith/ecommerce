@@ -1,0 +1,92 @@
+[training@localhost ~]$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 08:00:27:75:BA:AC  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:130 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:142 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:10954 (10.6 KiB)  TX bytes:12465 (12.1 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:110254 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:110254 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:132118901 (125.9 MiB)  TX bytes:132118901 (125.9 MiB)
+
+[training@localhost ~]$ isconfig
+bash: isconfig: command not found
+[training@localhost ~]$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 08:00:27:75:BA:AC  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:130 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:142 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:10954 (10.6 KiB)  TX bytes:12465 (12.1 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:123548 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:123548 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:134875072 (128.6 MiB)  TX bytes:134875072 (128.6 MiB)
+
+[training@localhost ~]$ hive --version
+Unrecognized option: --version
+usage: hive
+ -d,--define <key=value>          Variable subsitution to apply to hive
+                                  commands. e.g. -d A=B or --define A=B
+    --database <databasename>     Specify the database to use
+ -e <quoted-query-string>         SQL from command line
+ -f <filename>                    SQL from files
+ -H,--help                        Print help information
+ -h <hostname>                    connecting to Hive Server on remote host
+    --hiveconf <property=value>   Use value for given property
+    --hivevar <key=value>         Variable subsitution to apply to hive
+                                  commands. e.g. --hivevar A=B
+ -i <filename>                    Initialization SQL file
+ -p <port>                        connecting to Hive Server on port number
+ -S,--silent                      Silent mode in interactive shell
+ -v,--verbose                     Verbose mode (echo executed SQL to the
+                                  console)
+[training@localhost ~]$ hive 
+Logging initialized using configuration in file:/etc/hive/conf.dist/hive-log4j.properties
+Hive history file=/tmp/training/hive_job_log_training_202307191558_1982932925.txt
+hive> [training@localhost ~]$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 08:00:27:75:BA:AC  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:172 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:200 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:14730 (14.3 KiB)  TX bytes:20272 (19.7 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:186237 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:186237 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:147872966 (141.0 MiB)  TX bytes:147872966 (141.0 MiB)
+
+[training@localhost ~]$ ifconfig
+eth0      Link encap:Ethernet  HWaddr 08:00:27:75:BA:AC  
+          inet addr:10.0.2.15  Bcast:10.0.2.255  Mask:255.255.255.0
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:172 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:200 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000 
+          RX bytes:14730 (14.3 KiB)  TX bytes:20272 (19.7 KiB)
+
+lo        Link encap:Local Loopback  
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:190092 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:190092 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0 
+          RX bytes:148680892 (141.7 MiB)  TX bytes:148680892 (141.7 MiB)
+
+[training@localhost ~]$ 
